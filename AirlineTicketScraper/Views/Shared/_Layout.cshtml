@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Airline Scraper</title>
+    <link href=@Url.Content("~/Content/Site.css") rel="stylesheet" type="text/css" />
+    <link href=@Url.Content("~/Content/Materialize/css/materialize.min.css") rel="stylesheet" type="text/css" />
+    <link href=@Url.Content("~/Content/DataTables/css/jquery.dataTables.min.css") rel="stylesheet" type="text/css" />
+    <script src=@Url.Content("~/Scripts/modernizr-2.6.2.js")></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            @Html.ActionLink("Scraper", "Index", "Home", new { @class = "brand-logo" }, null)
+            @*<ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="collapsible.html">JavaScript</a></li>
+            </ul>*@
+        </div>
+    </nav>
+
+    <div class="container">
+        @RenderBody()
+        <hr />
+    </div>
+
+    @*<footer class="page-footer" id="footer">
+        <p>&copy; @DateTime.Now.Year - Airline Ticket Scraper</p>
+    </footer>*@
+
+    <script src=@Url.Content("~/Scripts/jquery-3.1.1.min.js")></script>
+    <script src=@Url.Content("~/Content/Materialize/js/materialize.min.js")></script>
+    <script src=@Url.Content("~/Scripts/jquery.dataTables.js")></script>
+    <script src=@Url.Content("~/Scripts/Common.js")></script>
+</body>
+</html>

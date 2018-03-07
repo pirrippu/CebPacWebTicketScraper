@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0e5ed979-16b3-4d48-8818-babc18558ae2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:54336/CebPacScraperServiceBasic.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CebPacScraperServiceBasic.wsdl" MetadataType="Wsdl" ID="74e78d78-ce63-4ec8-bcd6-527d77b3d14a" SourceId="1" SourceUrl="http://localhost:54336/CebPacScraperServiceBasic.svc?wsdl" />
+    <MetadataFile FileName="CebPacScraperServiceBasic.xsd" MetadataType="Schema" ID="06b31c4e-8ae5-4f18-ba21-9716d1851da9" SourceId="1" SourceUrl="http://localhost:54336/CebPacScraperServiceBasic.svc?xsd=xsd0" />
+    <MetadataFile FileName="CebPacScraperServiceBasic1.xsd" MetadataType="Schema" ID="6937e546-841e-491f-9209-55c88580affa" SourceId="1" SourceUrl="http://localhost:54336/CebPacScraperServiceBasic.svc?xsd=xsd1" />
+    <MetadataFile FileName="CebPacScraperServiceBasic2.xsd" MetadataType="Schema" ID="e298ffc0-882e-4f8d-98a9-5fd3f3e822e9" SourceId="1" SourceUrl="http://localhost:54336/CebPacScraperServiceBasic.svc?xsd=xsd2" />
+    <MetadataFile FileName="CebPacScraperServiceBasic3.xsd" MetadataType="Schema" ID="52b3fe8e-7927-4266-94eb-b687841ae5dd" SourceId="1" SourceUrl="http://localhost:54336/CebPacScraperServiceBasic.svc?xsd=xsd3" />
+    <MetadataFile FileName="CebPacScraperServiceBasic.disco" MetadataType="Disco" ID="90c31975-e034-4cb8-958e-462449965b22" SourceId="1" SourceUrl="http://localhost:54336/CebPacScraperServiceBasic.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

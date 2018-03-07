@@ -1,0 +1,32 @@
+﻿@model IEnumerable<AirlineTicketScraper.Models.SearchResultModel>
+
+
+<table id="resultsTable">
+    <thead>
+        <tr>
+            <th></th>
+            <th>Flight No</th>
+            <th>Time</th>
+            <th>Date</th>
+            <th>Price</th>
+            <th>URL</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{ 
+            int i = 1;
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@i</td>
+                    <td>@item.FlightNo</td>
+                    <td>@item.Time</td>
+                    <td>@item.Date.ToString("yyyy-MM-dd")</td>
+                    <td>@item.Price</td>
+                    <td><a href="@item.URL" target="_blank">Go to URL</a></td>
+                </tr>
+                i++;
+            }
+        }
+    </tbody>
+</table>
